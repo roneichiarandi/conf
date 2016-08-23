@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Dev Paraná Conference",
+      description: "2016",
+      date: "November 26",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "$80",
+      venue: "SEBRAE MARINGÁ",
+      address: "Av. Bento Munhoz da Rocha Neto, 1116 - Zona 7",
+      city: "Maringá",
+      state: "Paraná"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
+        text: "Participar",
         link: "http://eventick.com.br"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "devparana-conf-2016",
       url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: ""
     },
 
     // Active sections on the website
@@ -52,13 +52,13 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "O EVENTO",
+      location: "LOCALIZAÇÃO DO EVENTO",
+      speakers: "OS PALESTRANTES",
+      schedule: "CRONOGRAMA",
+      sponsors: "PATROCINADORES",
+      partners: "APOIO",
+      contact: "CONTATO"
     },
 
     // The entire schedule

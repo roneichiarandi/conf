@@ -1,0 +1,10 @@
+node:
+  container_name: 'site-conf'
+  build: '.'
+  volumes:
+    - "/etc/localtime:/etc/localtime:ro"
+    - ".:/myapp"
+  ports:
+    - "9778:9778"
+  working_dir: /myapp
+  restart: always
