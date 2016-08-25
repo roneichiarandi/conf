@@ -9,17 +9,19 @@ html {
   background:@background-color;
   font:normal normal 10px/1.2em helvetica, arial, sans-serif;
   color:@gray-conf;
+  text-align: center;
 }
 
 /* =============================================================================
    BASIC STYLES
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {color: @heading-color;}
+h2, h3, h4, h5, h6 {font-size: 2.5em}
 
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: @black-conf;}
+nav {background: @black-conf;position: fixed; top: 0}
 .nav-link {color: @white-conf;}
 .nav-link:active,
 .nav-link:hover,
@@ -80,9 +82,18 @@ nav {background: @black-conf;}
    ABOUT
    ========================================================================== */
 .about {
-  border:1px solid #e7e7e7;
-  background:#fff;
-  border-radius:4px;
+  h2 {
+    text-align: right;
+  }
+  .about-item {
+    text-align: left;
+    margin: 10px;
+    width: calc(~"50% - 6rem");
+    display: inline-block;
+    img {
+      width: 100%;
+    }
+  }
 }
 
 /* =============================================================================
