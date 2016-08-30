@@ -9,9 +9,10 @@ module.exports = {
     conf: {
       name: "Dev Paraná Conference",
       description: "2016",
-      date: "November 26",
+      date: "26 de Novembro",
+      logo: "themes/devparana-conf-2016/img/logo.svg",
       // If your event is free, just comment this line
-      price: "$80",
+      price: "",
       venue: "SEBRAE MARINGÁ",
       address: "Av. Bento Munhoz da Rocha Neto, 1116 - Zona 7",
       city: "Maringá",
@@ -42,11 +43,11 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'location',
       'speakers',
       'schedule',
       'sponsors',
-      'partners'
+      'partners',
+      'location'
       // 'contact'
     ],
 

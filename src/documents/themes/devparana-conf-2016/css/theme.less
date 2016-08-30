@@ -21,13 +21,14 @@ h2, h3, h4, h5, h6 {font-size: 2.5em}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: @black-conf;position: fixed; top: 0}
+nav {background: @black-conf;position: relative; top: 0}
 .nav-link {color: @white-conf;}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {color: @green-conf;}
 
+.fixed {position:fixed;top:0;margin:0 auto;}
 /* =============================================================================
    HEADER
    ========================================================================== */
@@ -37,12 +38,12 @@ nav {background: @black-conf;position: fixed; top: 0}
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
-  min-height: 450px;
+  min-height: 470px;
 }
 .logo-link, .tagline, .call-action-area .price {
   color:#fff;
-  display:none;
   text-shadow: 1px 2px 1px rgba(0,0,0,.3);
+  text-align: center;
 }
 .tagline {font-weight: normal;}
 .call-action-area .price {color:#fddd52;}
@@ -57,6 +58,8 @@ nav {background: @black-conf;position: fixed; top: 0}
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.4), inset 0 -2px 3px 0 #cc7f0a, inset 0 1px 0 0 #fff9b1;
   border-radius: 40px;
 }
+
+.logo-name{margin-top:10%}
 
 .github-link {
   position: fixed;
