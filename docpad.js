@@ -23,7 +23,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Participar",
-        link: "http://eventick.com.br"
+        link: "#eventick"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -44,9 +44,10 @@ module.exports = {
     sections: [
       'about',
       'speakers',
-      'schedule',
-      'sponsors',
-      'partners',
+      // 'schedule',
+      // 'sponsors',
+      // 'partners',
+      'eventick',
       'location'
       // 'contact'
     ],
@@ -59,13 +60,14 @@ module.exports = {
       schedule: "CRONOGRAMA",
       sponsors: "PATROCINADORES",
       partners: "APOIO",
+      eventick: "FAÇA SUA INSCRIÇÃO",
       contact: "CONTATO"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Check-in / Breakfast / test",
         time: "9h00"
       },
       {
@@ -164,6 +166,36 @@ module.exports = {
           title: "Why do I prefer Android over iPhone",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "17h00"
+        }
+      },
+      {
+        name: "Bill Gates",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        company: "Microsoft",
+        link: {
+          href: "http://github.com/billy95",
+          text: "@billy95"
+        },
+        presentation: {
+          title: "Introducing Windows 12",
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          time: "11h00"
+        }
+      },
+      {
+        name: "Bill Gates",
+        photo: "themes/yellow-swan/img/speaker.jpg",
+        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        company: "Microsoft",
+        link: {
+          href: "http://github.com/billy95",
+          text: "@billy95"
+        },
+        presentation: {
+          title: "Introducing Windows 12",
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          time: "11h00"
         }
       }
     ],

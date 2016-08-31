@@ -1,6 +1,7 @@
 @import "_mixins.less";
 @import "_colors.less";
 @import "_files.less";
+@import 'https://fonts.googleapis.com/css?family=Cabin+Condensed';
 
 /* =============================================================================
    MAIN LAYOUT
@@ -10,6 +11,8 @@ html {
   font:normal normal 10px/1.2em helvetica, arial, sans-serif;
   color:@gray-conf;
   text-align: center;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size:0.8em;
 }
 
 /* =============================================================================
@@ -21,14 +24,14 @@ h2, h3, h4, h5, h6 {font-size: 2.5em}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-nav {background: @black-conf;position: relative; top: 0}
+nav {background: rgba(0,0,0,0.5);position: relative; top: -75px; padding: 28px 0;}
 .nav-link {color: @white-conf;}
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {color: @green-conf;}
 
-.fixed {position:fixed;top:0;margin:0 auto;}
+.fixed {position:fixed;top:0;margin:0 auto; background:rgba(0,0,0,0.75)}
 /* =============================================================================
    HEADER
    ========================================================================== */
@@ -81,17 +84,25 @@ nav {background: @black-conf;position: relative; top: 0}
   text-decoration: underline;
 }
 
+.about, .schedule, .sponsors, .partners {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
+  margin-top: -100px;
   h2 {
     text-align: right;
   }
   .about-item {
     text-align: left;
     margin: 10px;
-    width: calc(~"50% - 6rem");
+    width: calc(~"50% - 2rem");
     display: inline-block;
     img {
       width: 100%;
@@ -106,18 +117,68 @@ nav {background: @black-conf;position: relative; top: 0}
   background: #e7e7e7;
   border: 1px solid #ccc;
   border-radius: 4px;
-  height: 300px;
+  height: 500px;
 }
 
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speaker-photo .photo {
-  border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0,0,0,.07);
-  .transition(all 0.3s ease-out);
+.speakers-item {
+  width:calc(~"25% - 0.5rem");
+  min-height:410px;
+  overflow: hidden;
+  border: none;
+  padding:0;
+  margin:0;
+  display: inline-block;
 }
-.speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
+.speaker-info {
+  position: absolute;
+  z-index: 1;
+  padding: 10px 0;
+  left: 0;
+}
+.speaker-photo {
+  position:absolute;
+  top:0;
+  left:0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.speaker-photo .photo {
+  width: 100%;
+}
+
+.speaker-info {
+  opacity: 0;
+  font-size: 2em;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 35%;
+  transition: all 0.2s ease-in;
+  &:hover {
+    opacity: 1;
+    background: rgba(20,159,74,0.7);
+    transition: all 0.3s ease-out;
+  }
+  h3 {
+    color: @white-conf;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+  .speaker-company{
+    color: @white-conf;
+    font-style: italic;
+  }
+  a{
+    color: @blue-dark-conf;
+  }
+}
+
 .speech-time {
   color:#fff;
   background:#2b2b2b;
@@ -165,6 +226,10 @@ nav {background: @black-conf;position: relative; top: 0}
 }
 .form input[type=text]:focus, .form input[type=email]:focus, .form textarea:focus {border-color:#aaa;outline:0;}
 
+/* =============================================================================
+   FOOTER
+   ========================================================================== */
+.footer{padding-top:20px}
 
 /* =============================================================================
    Media Queries
