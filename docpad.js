@@ -71,13 +71,13 @@ module.exports = {
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Maujor",
+        photo: "themes/devparana-conf-2016/img/speakers/maujor.jpg",
+        bio: "",
+        company: "Dinossauro do CSS",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://twitter.com/maujor",
+          text: "@maujor"
         },
         presentation: {
           title: "Digging into a Linux Kernel",
@@ -86,13 +86,13 @@ module.exports = {
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Edson Yanaga",
+        photo: "themes/devparana-conf-2016/img/speakers/yanaga.jpg",
+        bio: "",
+        company: "Red Hat",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://github.com/yanaga",
+          text: "@yanaga"
         },
         presentation: {
           title: "Introducing Windows 12",
@@ -105,13 +105,13 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Jaydson Aguiar",
+        photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
+        bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
+        company: "Nasc",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "http://twitter.com/jaydson",
+          text: "@jaydson"
         },
         presentation: {
           title: "How to kill a elephant with one finger",
@@ -120,18 +120,18 @@ module.exports = {
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Palestrante Convidado",
+        photo: "themes/devparana-conf-2016/img/guest-speaker.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
@@ -139,65 +139,65 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "",
+          description: "",
+          time: ""
         }
-      }
+      },
     ],
 
     // List of Sponsors
