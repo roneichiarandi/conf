@@ -3,7 +3,7 @@
   "scripts": {
     "deploy": "docpad deploy-ghpages --env static",
     "generate": "docpad generate --env static",
-    "watch": "docpad run"
+    "start": "docpad run"
   },
   "dependencies": {
     "docpad": "^6.78.1",

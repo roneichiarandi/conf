@@ -7,34 +7,35 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Dev Paraná Conference",
+      description: "2016",
+      date: "26 de Novembro",
+      logo: "themes/devparana-conf-2016/img/logo.svg",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "",
+      venue: "SEBRAE MARINGÁ",
+      address: "Av. Bento Munhoz da Rocha Neto, 1116 - Zona 7",
+      city: "Maringá",
+      state: "Paraná"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Participar",
+        link: "#eventick"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
-      theme: "yellow-swan",
+      theme: "devparana-conf-2016",
       url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: ""
     },
 
     // Active sections on the website
@@ -42,39 +43,41 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'location',
       'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
+      // 'schedule',
+      // 'sponsors',
+      // 'partners',
+      'eventick',
+      'location'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "O EVENTO",
+      location: "LOCALIZAÇÃO DO EVENTO",
+      speakers: "OS PALESTRANTES",
+      schedule: "CRONOGRAMA",
+      sponsors: "PATROCINADORES",
+      partners: "APOIO",
+      eventick: "FAÇA SUA INSCRIÇÃO",
+      contact: "CONTATO"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Check-in / Breakfast / test",
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Maujor",
+        photo: "themes/devparana-conf-2016/img/speakers/maujor.jpg",
+        bio: "",
+        company: "Dinossauro do CSS",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "http://twitter.com/maujor",
+          text: "@maujor"
         },
         presentation: {
           title: "Digging into a Linux Kernel",
@@ -83,13 +86,13 @@ module.exports = {
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Edson Yanaga",
+        photo: "themes/devparana-conf-2016/img/speakers/yanaga.jpg",
+        bio: "",
+        company: "Red Hat",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://github.com/yanaga",
+          text: "@yanaga"
         },
         presentation: {
           title: "Introducing Windows 12",
@@ -102,13 +105,13 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Jaydson Aguiar",
+        photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
+        bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
+        company: "Nasc",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "http://twitter.com/jaydson",
+          text: "@jaydson"
         },
         presentation: {
           title: "How to kill a elephant with one finger",
@@ -117,18 +120,18 @@ module.exports = {
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Palestrante Convidado",
+        photo: "themes/devparana-conf-2016/img/guest-speaker.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
@@ -136,35 +139,65 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "",
+          description: "",
+          time: ""
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
+        bio: "",
+        company: "",
         link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "",
+          description: "",
+          time: ""
         }
-      }
+      },
+      {
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "",
+          description: "",
+          time: ""
+        }
+      },
+      {
+        name: "Submissão",
+        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
+        bio: "",
+        company: "",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "",
+          description: "",
+          time: ""
+        }
+      },
     ],
 
     // List of Sponsors

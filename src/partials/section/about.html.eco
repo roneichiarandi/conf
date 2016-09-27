@@ -1,6 +1,19 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<div class="about-item">
+    <h2 class="section-title"><%= @labels['about'] %></h2>
+    <img class="speaker-avatar" src="themes/devparana-conf-2016/img/about.jpg">
+</div>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org" target="_blank">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<div class="about-item">
+    <p itemprop="description">Em 2016 acontece a primeira edição do Paraná Dev Day.
+    <br>
+    A ideia de realizar um grande evento de tecnologia por aqui surgiu
+    da carência de eventos desta categoria na região.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">repository on Github</a> for more details =D</p>
+    <p>O Paraná Dev Day nasceu como uma alternativa para estudantes e profissionais das áreas de TI, com a finalidade de trazer novidades e os grandes nomes
+    do cenário nacional de tecnologia.</p>
+
+    <p>Um dia inteiro, palestras, networking, troca de conhecimento e experiências, criado e organizado por desenvolvedores para desenvolvedores.</p>
+
+</div>
+
+
