@@ -16,7 +16,8 @@ module.exports = {
       venue: "SEBRAE MARINGÁ",
       address: "Av. Bento Munhoz da Rocha Neto, 1116 - Zona 7",
       city: "Maringá",
-      state: "Paraná"
+      state: "Paraná",
+      keyMapApi: "AIzaSyDWpbeLbFKUPzCBv-7oce-ANxdo1mzvGaw"
     },
 
     // The Call To Action button at the header,
