@@ -46,9 +46,9 @@ module.exports = {
       'about',
       'speakers',
       // 'schedule',
-      // 'sponsors',
-      // 'partners',
       'eventick',
+      'sponsors',
+      'partners',
       'location'
       // 'contact'
     ],
@@ -204,18 +204,23 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }
+        name: "Sicredi União",
+        logo: "themes/devparana-conf-2016/img/sicredi.png",
+        url: "http://sicredi.com.br"
+      },
+      {
+        name: "RedHat",
+        logo: "themes/devparana-conf-2016/img/redhat.png",
+        url: "http://redhat.com"
+      },
     ],
 
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "SEBRAE Maringá",
+        logo: "themes/devparana-conf-2016/img/sebrae.png",
+        url: "http://www.sebraepr.com.br/"
       }
     ],
 
