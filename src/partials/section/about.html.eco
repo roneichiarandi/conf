@@ -1,8 +1,7 @@
+<h2 class="section-title"><%= @labels['about'] %></h2>
 <div class="about-item">
-    <h2 class="section-title"><%= @labels['about'] %></h2>
     <img class="speaker-avatar" src="themes/devparana-conf-2016/img/about.jpg">
 </div>
-
 <div class="about-item">
     <p>Em novembro o DevParaná completa o primeiro ano de existência. Para comemorar tal feito será realizada a primeira conferência do movimento.</p>
     <p>A conferência tem por objetivo trazer palestrantes que são referência nacional em sua área de atuação, assim como palestrantes que são destaque na comunidade através de uma chamada para submissão de palestras.</p>
