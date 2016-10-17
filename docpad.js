@@ -121,13 +121,13 @@ module.exports = {
         }
       },
       {
-        name: "Palestrante Convidado",
-        photo: "themes/devparana-conf-2016/img/guest-speaker.jpg",
+        name: "Guilherme Berghauser",
+        photo: "themes/devparana-conf-2016/img/speakers/torto.jpg",
         bio: "",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "https://twitter.com/tortoyo",
+          text: "@tortoyo"
         },
         presentation: {
           title: "",
@@ -145,8 +145,8 @@ module.exports = {
         bio: "",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
+          text: "Clique aqui"
         },
         presentation: {
           title: "",
@@ -160,8 +160,8 @@ module.exports = {
         bio: "",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
+          text: "Clique aqui"
         },
         presentation: {
           title: "",
@@ -175,8 +175,8 @@ module.exports = {
         bio: "",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
+          text: "Clique aqui"
         },
         presentation: {
           title: "",
@@ -190,8 +190,8 @@ module.exports = {
         bio: "",
         company: "",
         link: {
-          href: "",
-          text: ""
+          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
+          text: "Clique aqui"
         },
         presentation: {
           title: "",
