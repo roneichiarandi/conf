@@ -83,13 +83,6 @@ nav {background: rgba(0,0,0,0.5);position: relative; top: -75px; padding: 28px 0
   color:#fddd52;
 }
 
-.about, .schedule, .sponsors, .partners {
-  width: 960px;
-  margin: 0 auto;
-  position: relative;
-}
-
-
 /* =============================================================================
    ABOUT
    ========================================================================== */
@@ -242,4 +235,15 @@ nav {background: rgba(0,0,0,0.5);position: relative; top: -75px; padding: 28px 0
     font-weight: bolder;
   }
   .github-link { display: none; }
+  .about {
+    margin-top: 0;
+    .about-item {
+      width: calc(~"100% - 1.6rem");
+      display: block;
+    }
+  }
+  .eventick {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
