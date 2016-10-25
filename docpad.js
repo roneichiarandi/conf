@@ -35,8 +35,8 @@ module.exports = {
     // Site info
     site: {
       theme: "devparana-conf-2016",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: ""
+      url: "http://www.devparana.org/conf",
+      googleanalytics: "UA-69209115-4"
     },
 
     // Active sections on the website
