@@ -68,8 +68,8 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast / test",
-        time: "9h00"
+        name: "Check-in / Breakfast",
+        time: "8h00"
       },
       {
         name: "Maujor",
@@ -81,9 +81,9 @@ module.exports = {
           text: "@maujor"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          title: "CSS - Uma tecnologia em constante evolução",
+          description: "",
+          time: "09h30"
         }
       },
       {
@@ -96,8 +96,8 @@ module.exports = {
           text: "@yanaga"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "DevOps e Containers: como o Open Source está mudando a entrega de software",
+          description: "Nesse novo mundo com novos modelos econômicos surgindo nós temos que entregar software em produção cada vez melhor, mais rápido e de modo mais seguro. DevOps é o movimento atual para conseguirmos alcançar esse objetivo, e Containers é uma das tecnologias que fazem parte de toda essa inovação. Venha aprender como Containers e diversas ferramentas Open Source estão habilitando o movimento de DevOps para entregar software mais rápido em produção.",
           time: "11h00"
         }
       },
@@ -106,7 +106,7 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Jaydson Aguiar",
+        name: "Jaydson Gomes",
         photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
         bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
         company: "Nasc",
@@ -115,8 +115,8 @@ module.exports = {
           text: "@jaydson"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Como ser um bom dev FrontEnd em 2017",
+          description: "Nos últimos o chamado desenvolvimento FrontEnd nasceu e cresceu de tal maneira que, para muitos, atingiu demasiada complexidade. De fato, a evolução do JavaScript, do HTML e do CSS, resultou no nascimento de uma variedade de novos conceitos, ferramentas, bibliotecas e frameworks. Como se manter atualizado e relevante em um ambiente tão volátil? Como ser um bom desenvolvedor FrontEnd? Nesta palestra Jaydson irá mostrar sua visão do mundo FrontEnd e o que é necessário para se tornar um bom desenvolvedor FrontEnd em 2017.",
           time: "13h00"
         }
       },
@@ -130,8 +130,8 @@ module.exports = {
           text: "@tortoyo"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "REACT",
+          description: "Uma introdução ao framework e demonstração das possibilidades de sua utilização.",
           time: ""
         }
       },
@@ -140,62 +140,62 @@ module.exports = {
         time: "15h00"
       },
       {
-        name: "Submissão",
-        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
-        bio: "",
+        name: "Fábio Rogério SJ",
+        photo: "themes/devparana-conf-2016/img/speakers/fabio.jpg",
+        bio: "Fábio Rogério da Silva José​, conhecido como Fábio Rogério SJ nas redes sociais, é desenvolvedor de aplicações web e mobile desde quando o Internet Explorer 7 erá um pesadelo e desenvolver aplicativos híbridos com tecnologias web era um trabalho árduo, ou seja, desde 2007. Atualmente Fábio Rogério trabalha como desenvolvedor Web no Grupo Benner e presta serviço de consultoria e treinamento em desenvolvimento de aplicações web e mobile utilizando tecnologias híbridas. Fábio também é professor, de curso superior, onde ministra as disciplinas de desenvolvimento frontend, desenvolvimento de aplicativos móveis, web design, design de interação e lógica de programação.",
         company: "",
         link: {
-          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
-          text: "Clique aqui"
+          href: "https://twitter.com/fabiorogeriosj",
+          text: "@FabioRogerioSJ"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Desenvolvimento híbrido para mobile e desktop",
+          description: "Passamos por muitas mudanças na evolução das plataformas de interação entre sistemas e usuários. Quando migramos do desktop para web um mundo de possibilidades, para os desenvolvedores, foi criado e hoje vivemos a expansão de aplicações web para o desktop, mas o que acontece com o mundo de possibilidades? Desenvolver aplicações híbridas é trazer todo o poder das tecnologias web para o desktop e mobile.",
           time: ""
         }
       },
       {
-        name: "Submissão",
-        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
-        bio: "",
+        name: "Eduardo Spaki",
+        photo: "themes/devparana-conf-2016/img/speakers/eduardo.jpg",
+        bio: "Arquiteto de Software, atua há 14 anos com desenvolvimento de tecnologias, tendo participado de projetos em diversos países. É especialista em softwares para a Internet e possui MBA em Gerência de Projetos. Já publicou livro e artigos na área de tecnologia e vem palestrando sobre carreira profissional, inovação e TI.",
         company: "",
         link: {
-          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
-          text: "Clique aqui"
+          href: "https://twitter.com/eduardospaki",
+          text: "@eduardospaki"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Progressive Web Apps, será essa a nova tendência!?",
+          description: "A tecnologia tem suas modas e vive se reinventando. Já tivemos a web, web 2.0, mobile, apps... Mas o que será que virá a seguir? Que tal conhecer um pouco do que os Progressive Web Apps tem para oferecer à este mundo cada vez mais conectado.",
           time: ""
         }
       },
       {
-        name: "Submissão",
-        photo: "themes/devparana-conf-2016/img/submission-speaker.jpg",
-        bio: "",
-        company: "",
+        name: "Anderson M Fernandes",
+        photo: "themes/devparana-conf-2016/img/speakers/burnes.jpg",
+        bio: "Mestre em Informática pela UTFPR, Desenvolvedor Web desde 1999, Professor de Graduação e Pós-Graduação, Palestrante e degustador de Bacon. Atua ainda como sócio, desenvolvedor e gestor de e-commerce na Uniti, onde mantem parcerias com as lojas Vida de Programador, Vida de Suporte, Bugginho Developer e o Compra Canibal dos Irmãos Piologo.",
+        company: "Faculdade Alfa",
         link: {
-          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
-          text: "Clique aqui"
+          href: "https://twitter.com/professorburnes",
+          text: "@ProfessorBurnes"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Realidade: Virtual ou Aumentada?",
+          description: "Palestra sobre os temas Realidade Virtual e Aumentada, diferenças e aplicações para Web e Dispositivos Móveis. Nesta palestra são apresentados ao público de maneira prática o funcionamento, utilizando um Óculos de RV e o Sphero com um game com RA (https://www.youtube.com/watch?v=UPn3jVGQw68), além de discorrer sobre o sucesso do Pokemon Go e ferramentas de desenvolvimento Web.",
           time: ""
         }
       },
       {
-        name: "Submissão",
-        photo: "themes/devparana-conf-2016/img/submission-speaker-2.jpg",
-        bio: "",
-        company: "",
+        name: "Munif Gebara Junior",
+        photo: "themes/devparana-conf-2016/img/speakers/munif.jpg",
+        bio: "Possui graduação em Ciência da Computação pela Universidade Estadual de Maringá (1997) e mestrado em Engenharia Elétrica e Informática Industrial pela Universidade Tecnológica Federal do Paraná (2001). Atualmente é professor da Fundação Faculdade de Filosofia Ciências e Letras de Mandaguari e professor de ensino superior Unicesumar e desenvolvedor na GUMGA S/A.",
+        company: "GUMGA S/A",
         link: {
-          href: "https://goo.gl/forms/mcZqPhchXt9U2wnp2",
-          text: "Clique aqui"
+          href: "https://twitter.com/munifgebara",
+          text: "@munifgebara"
         },
         presentation: {
-          title: "",
-          description: "",
+          title: "Introdução a Microserviços",
+          description: "A era de grandes sistemas monolíticos esta acabando, sua manutenção, sua homogeneidade em tecnologias, suas necessidades específicas não tem mais espaço no mundo heterogêneo atual. Com a utilização de microserviços é possível criar soluções realmente reutulizáveis, heterogêneas e independentes de tecnologias. Esta paletra tem o objetivo de descrever as tecnologias de microserviços mostrando os conceitos e implementações da NetFlix utilizando como exemplo Spring e Java .",
           time: ""
         }
       },
