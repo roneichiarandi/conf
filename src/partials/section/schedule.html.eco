@@ -1,6 +1,4 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 <div class="schedule-tbl">
   <table>
     <thead>
@@ -11,7 +9,6 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </tr>
     </thead>
     <tbody>
-
       <% for slot in @schedule: %>
         <% if slot.presentation: %>
           <tr>
@@ -23,7 +20,7 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
               </span>
             <% end %>
             <%= slot.presentation.title %>
-              <span class="speakers-company"><%= slot.company %></span>
+              <span class="speakers-company"><%= slot.name %> - <%= slot.company %></span>
             </td>
             <td class="schedule-description"><%= slot.presentation.description %></td>
           </tr>

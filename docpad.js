@@ -45,7 +45,7 @@ module.exports = {
     sections: [
       'about',
       'speakers',
-      // 'schedule',
+      'schedule',
       'eventick',
       'sponsors',
       'partners',
@@ -64,6 +64,90 @@ module.exports = {
       eventick: "FAÇA SUA INSCRIÇÃO",
       contact: "CONTATO"
     },
+
+    // The speakers
+    speakers: [
+      {
+        name: "Maujor",
+        photo: "themes/devparana-conf-2016/img/speakers/maujor.jpg",
+        bio: "",
+        company: "Dinossauro do CSS",
+        link: {
+          href: "http://twitter.com/maujor",
+          text: "@maujor"
+        }
+      },
+      {
+        name: "Edson Yanaga",
+        photo: "themes/devparana-conf-2016/img/speakers/yanaga.jpg",
+        bio: "",
+        company: "Red Hat",
+        link: {
+          href: "http://github.com/yanaga",
+          text: "@yanaga"
+        }
+      },
+      {
+        name: "Jaydson Gomes",
+        photo: "themes/devparana-conf-2016/img/speakers/jaydson.jpg",
+        bio: "Jaydson Gomes tem +de 12 anos de experiência em desenvolvimento Web.",
+        company: "Nasc",
+        link: {
+          href: "http://twitter.com/jaydson",
+          text: "@jaydson"
+        }
+      },
+      {
+        name: "Guilherme Berghauser",
+        photo: "themes/devparana-conf-2016/img/speakers/torto.jpg",
+        bio: "",
+        company: "",
+        link: {
+          href: "https://twitter.com/tortoyo",
+          text: "@tortoyo"
+        }
+      },
+      {
+        name: "Fábio Rogério SJ",
+        photo: "themes/devparana-conf-2016/img/speakers/fabio.jpg",
+        bio: "Fábio Rogério da Silva José​, conhecido como Fábio Rogério SJ nas redes sociais, é desenvolvedor de aplicações web e mobile desde quando o Internet Explorer 7 erá um pesadelo e desenvolver aplicativos híbridos com tecnologias web era um trabalho árduo, ou seja, desde 2007. Atualmente Fábio Rogério trabalha como desenvolvedor Web no Grupo Benner e presta serviço de consultoria e treinamento em desenvolvimento de aplicações web e mobile utilizando tecnologias híbridas. Fábio também é professor, de curso superior, onde ministra as disciplinas de desenvolvimento frontend, desenvolvimento de aplicativos móveis, web design, design de interação e lógica de programação.",
+        company: "",
+        link: {
+          href: "https://twitter.com/fabiorogeriosj",
+          text: "@FabioRogerioSJ"
+        }
+      },
+      {
+        name: "Eduardo Spaki",
+        photo: "themes/devparana-conf-2016/img/speakers/eduardo.jpg",
+        bio: "Arquiteto de Software, atua há 14 anos com desenvolvimento de tecnologias, tendo participado de projetos em diversos países. É especialista em softwares para a Internet e possui MBA em Gerência de Projetos. Já publicou livro e artigos na área de tecnologia e vem palestrando sobre carreira profissional, inovação e TI.",
+        company: "",
+        link: {
+          href: "https://twitter.com/eduardospaki",
+          text: "@eduardospaki"
+        }
+      },
+      {
+        name: "Anderson M Fernandes",
+        photo: "themes/devparana-conf-2016/img/speakers/burnes.jpg",
+        bio: "Mestre em Informática pela UTFPR, Desenvolvedor Web desde 1999, Professor de Graduação e Pós-Graduação, Palestrante e degustador de Bacon. Atua ainda como sócio, desenvolvedor e gestor de e-commerce na Uniti, onde mantem parcerias com as lojas Vida de Programador, Vida de Suporte, Bugginho Developer e o Compra Canibal dos Irmãos Piologo.",
+        company: "Faculdade Alfa",
+        link: {
+          href: "https://twitter.com/professorburnes",
+          text: "@ProfessorBurnes"
+        }
+      },
+      {
+        name: "Munif Gebara Junior",
+        photo: "themes/devparana-conf-2016/img/speakers/munif.jpg",
+        bio: "Possui graduação em Ciência da Computação pela Universidade Estadual de Maringá (1997) e mestrado em Engenharia Elétrica e Informática Industrial pela Universidade Tecnológica Federal do Paraná (2001). Atualmente é professor da Fundação Faculdade de Filosofia Ciências e Letras de Mandaguari e professor de ensino superior Unicesumar e desenvolvedor na GUMGA S/A.",
+        company: "GUMGA S/A",
+        link: {
+          href: "https://twitter.com/munifgebara",
+          text: "@munifgebara"
+        }
+      }
+    ],
 
     // The entire schedule
     schedule: [
@@ -132,7 +216,7 @@ module.exports = {
         presentation: {
           title: "REACT",
           description: "Uma introdução ao framework e demonstração das possibilidades de sua utilização.",
-          time: ""
+          time: "09h50"
         }
       },
       {

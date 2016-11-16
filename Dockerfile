@@ -1,4 +1,4 @@
-FROM roneichiarandi/node-dev
+FROM roneichiarandi/alpine-node
 
 MAINTAINER Devparana
 
